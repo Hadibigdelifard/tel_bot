@@ -15,7 +15,7 @@ async def reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(response)
 
 # اجرای برنامه
-if name == 'main':
+if __name__ == '__main__':
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
     # ثبت دستور start
