@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: saqi-boty1
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python saqi_boty1.py
